@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Python Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Interactive Python Interface</h1>
+    </header>
+    <div class="container">
+        <h2>Select a Task</h2>
+
+        <form action="/area_of_circle" method="POST">
+            <input type="number" name="radius" placeholder="Enter radius" required>
+            <button type="submit">Calculate Area of Circle</button>
+        </form>
+
+        <form action="/marksheet" method="POST">
+            <input type="text" name="marks" placeholder="Enter marks (comma-separated)" required>
+            <button type="submit">Calculate Marksheet</button>
+        </form>
+
+        <form action="/odd_even_detector" method="POST">
+            <input type="number" name="number" placeholder="Enter number" required>
+            <button type="submit">Check Odd/Even</button>
+        </form>
+
+        <form action="/calculator" method="POST">
+            <input type="number" name="num1" placeholder="Enter first number" required>
+            <input type="number" name="num2" placeholder="Enter second number" required>
+            <select name="operation">
+                <option value="add">Add</option>
+                <option value="subtract">Subtract</option>
+                <option value="multiply">Multiply</option>
+                <option value="divide">Divide</option>
+            </select>
+            <button type="submit">Calculate</button>
+        </form>
+
+        <form action="/vowel_detector" method="POST">
+            <input type="text" name="text" placeholder="Enter text" required>
+            <button type="submit">Count Vowels</button>
+        </form>
+
+        <form action="/bmi_calculator" method="POST">
+            <input type="number" step="any" name="weight" placeholder="Enter weight (kg)" required>
+            <input type="number" step="any" name="height" placeholder="Enter height (m)" required>
+            <button type="submit">Calculate BMI</button>
+        </form>
+
+        <form action="/multiplication_table" method="POST">
+            <input type="number" name="number" placeholder="Enter a number" required>
+            <button type="submit">Get Multiplication Table</button>
+        </form>
+
+        <form action="/celsius_to_fahrenheit" method="POST">
+            <input type="number" step="any" name="celsius" placeholder="Enter temperature in Celsius" required>
+            <button type="submit">Convert to Fahrenheit</button>
+        </form>
+
+        <form action="/sum_even_odd" method="POST">
+            <input type="text" name="numbers" placeholder="Enter numbers (comma-separated)" required>
+            <button type="submit">Calculate Sum</button>
+        </form>
+    </div>
+</body>
+</html>
