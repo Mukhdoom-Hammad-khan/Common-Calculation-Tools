@@ -54,4 +54,6 @@ interactive-python-web-app/
 
 ---
 
-Feel free to contribute or provide feedback to improve the project!
+## License
+
+This project is licensed under the [LICENSE](LICENSE).
