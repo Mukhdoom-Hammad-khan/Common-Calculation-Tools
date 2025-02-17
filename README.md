@@ -38,7 +38,7 @@ A Flask-based interactive web application offering multiple functionalities like
 5. Open your browser and go to `http://127.0.0.1:5001` to access the app.
 
 ## File Structure
-```
+```graphql
 interactive-python-web-app/
 ├── static/
 │   └── style.css
