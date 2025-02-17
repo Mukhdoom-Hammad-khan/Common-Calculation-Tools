@@ -45,7 +45,6 @@ interactive-python-web-app/
 ├── templates/
 │   └── index.html
 ├── app.py
-├── requirements.txt
 └── README.md
 ```
 
