@@ -21,7 +21,7 @@ A Flask-based interactive web application offering multiple functionalities like
 ## Setup and Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/interactive-python-web-app.git
+   git clone https://github.com/Mukhdoom-Hammad-khan/Common-Calculation-Tools.git
    ```
 2. Navigate to the project directory:
    ```bash
