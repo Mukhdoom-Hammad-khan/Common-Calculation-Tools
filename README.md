@@ -1,4 +1,4 @@
-# Interactive Python Web App
+# Common-Calculation-Tools-WebApp
 
 A Flask-based interactive web application offering multiple functionalities like area calculations, odd/even number detection, marksheet generation, BMI calculation, and more. This project demonstrates Flask's capabilities for building dynamic web apps with Python.
 
@@ -40,19 +40,13 @@ A Flask-based interactive web application offering multiple functionalities like
 ## File Structure
 
 ```graphql
-interactive-python-web-app/
-├── instance/
-│   └── tasks.db
-├── static/
-│   └── style.css
-├── templates/
-│   |── index.html
-│   |── add_task.html
-│   |── base.html
-│   |── register.html
-│   └── login.css
-├── app.py
-└── README.md
+   interactive-python-web-app/
+   ├── static/
+   │   └── style.css
+   ├── templates/
+   │   └── index.html
+   ├── app.py
+   └── README.md
 ```
 
 ## Author
